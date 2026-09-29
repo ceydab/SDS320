@@ -3,3 +3,5 @@ requests
 maxar-platform
 pystac
 shapely
+planetary_computer
+rasterio
