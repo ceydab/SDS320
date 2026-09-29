@@ -1,3 +1,5 @@
 dotenv
 requests
-os
+maxar-platform
+pystac
+shapely
