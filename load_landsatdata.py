@@ -39,14 +39,14 @@ EVENTS = {
         platforms=["landsat-7", "landsat-5"],
         windows=dict(pre="1999-06-01/1999-08-16",    # quake: 17 Aug 1999
                      post="1999-08-18/1999-10-15",
-                     y3="2002-08-18/2002-10-15"),    # same season, 3 years later
+                     y3="2002-08-01/2002-10-01"),    # same season, 3 years later
     ),
     "turkey_2023": dict(
         aoi=[36.5, 37.2, 37.5, 37.9],                # Kahramanmaras area. Hatay etc. need their own AOI
         platforms=["landsat-8", "landsat-9"],
-        windows=dict(pre="2022-12-15/2023-02-05",    # quake: 6 Feb 2023
-                     post="2023-02-07/2023-04-15",
-                     y3="2026-02-07/2026-04-15"),    # same season, 3 years later
+        windows=dict(pre="2022-03-01/2022-04-30",    # quake: 6 Feb 2023
+                     post="2023-03-01/2023-04-30",
+                     y3="2026-03-01/2026-04-30"),    # same season, 3 years later
     ),
 }
 EPOCHS = ["pre", "post", "y3"]
